@@ -41,3 +41,16 @@
 .subscribe span {
     color: red;
 }
+
+.navbar2 a {
+    text-decoration: none;
+    color: black;
+    font-family:  "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.navbar2 a:hover {
+    text-decoration: none;
+    color: red;
+}
