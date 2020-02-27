@@ -194,6 +194,10 @@ body {
 }
 
 /* Styling the second column, topstory1 */
+.topstory-section {
+    width: 500px;
+}
+
 .stories .topstory-image img {
     width: 500px;
 }
@@ -257,11 +261,78 @@ body {
 .more-related-news li a {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 17px;
     color: black;
     text-decoration: none;
 }
 
 .more-related-news li a:hover {
     color: red;
+}
+
+/* Styling Culture Travel section */
+.cultureTravel {
+    width: 500px;
+}
+
+.cultureTravel-title a {
+    color: rgba(3, 3, 3, 0.5);
+    font-family:  "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 0 10px;
+}
+
+.cultureTravel-title a:hover {
+    color: rgba(3, 3, 3, 0.5);
+    text-decoration: none;
+}
+
+.cultureTravel-image {
+    position: relative;
+    min-height: 35px;
+    margin-bottom: 10px;
+}
+
+.cultureTravel-image img {
+    width: 160px;
+    height: 160px;
+}
+
+.cultureTravel .image-category {
+    display: block;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.cultureTravel .image-category a {
+    color: rgb(39, 39, 39);
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    background-color: #c2d4d7;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+}
+
+.image-title a {
+    font-family: Lora, serif;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+.image-title a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.image-info {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.5);
 }
