@@ -273,6 +273,7 @@ body {
 /* Styling Culture Travel section */
 .cultureTravel {
     width: 500px;
+    margin-bottom: 20px;
 }
 
 .cultureTravel-title a {
@@ -335,4 +336,9 @@ body {
     font-weight: 400;
     font-size: 15px;
     color: rgba(39, 39, 39, 0.5);
+}
+
+/*Styling the more stories section */
+.more-stories {
+    width: 500px;
 }
