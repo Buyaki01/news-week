@@ -10,7 +10,7 @@ In this project, we created a clone of the website <a href="https://www.newsweek
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/Buyaki01/news-week/branch/index.html)
+[Live Demo](https://ecstatic-dubinsky-a620a2.netlify.com/)
 
 ## Getting Started
 

@@ -461,9 +461,19 @@ body {
     margin: -30px auto;
 }
 
-.item2 .debate-item2 {
+.debate-item2 {
     border-top: 4px solid #1c87fb;
     border-bottom-style: double;
     border-bottom-color: #ddd;
     padding-bottom: 20px;
+}
+
+/* Styling latest news */
+.latest-news-list {
+    margin-top: 10px;
+}
+
+.latest-news-image img {
+    width: 100px;
+    height: 100px;
 }
