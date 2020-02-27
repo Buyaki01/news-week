@@ -78,7 +78,7 @@ body {
     margin-bottom: 10px;
 }
 
-.stories-title {
+.stories-title, .stories-title > a {
     font-family: "Roboto Condensed",sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -195,15 +195,15 @@ body {
 
 /* Styling the second column, topstory1 */
 .topstory-section {
-    width: 560px;
+    width: 530px;
 }
 
 .stories .topstory-image img {
-    width: 550px;
+    width: 530px;
 }
 
 .topstory-headline {
-    width: 560px;
+    width: 530px;
 }
 
 .topstory-headline a{
@@ -220,7 +220,7 @@ body {
 }
 
 .topstory-caption {
-    width: 560px;
+    width: 530px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -232,7 +232,7 @@ body {
     padding-top: 14px;
     padding-bottom: 14px;
     border-top: 1px solid #ddd;
-    width: 560px;
+    width: 530px;
 }
 
 .related-news-image img {
@@ -272,16 +272,8 @@ body {
 
 /* Styling Culture Travel section */
 .cultureTravel {
-    width: 560px;
+    width: 530px;
     margin-bottom: 20px;
-}
-
-.cultureTravel-title a {
-    color: rgba(3, 3, 3, 0.5);
-    font-family:  "Roboto Condensed", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 0 0 10px;
 }
 
 .cultureTravel-title a:hover {
@@ -340,11 +332,11 @@ body {
 
 /*Styling the more stories section */
 .more-stories {
-    width: 560px;
+    width: 530px;
 }
 
 .substories {
-    width: 560px;
+    width: 530px;
     height: 165px;
     border-top: 1px solid #ddd;
     padding-top: 10px;
@@ -359,15 +351,6 @@ body {
     margin-left: -20px;
 }
 
-.more-stories-title {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    color: rgba(3, 3, 3, 0.4);
-    text-transform: uppercase;
-    padding-bottom: 11px;
-}
-
 .stories-image-heading a {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
@@ -377,11 +360,37 @@ body {
 
 .stories-image-heading a:hover {
     color: black;
-    text-decoration: none;
+    text-decoration: red underline;
 } 
 
 .more-stories-info {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
+}
+
+/* styling col 3 */
+.opinion-list {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.opinion-heading a {
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.opinion-heading a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.opinion-name {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
 }
