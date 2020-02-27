@@ -370,6 +370,10 @@ body {
 }
 
 /* styling col 3 */
+.opinion-container {
+    margin-bottom: 10px;
+} 
+
 .opinion-list {
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
@@ -393,4 +397,73 @@ body {
     font-size: 14px;
     color: rgb(85, 85, 85);
     text-transform: uppercase;
+}
+
+/*debate section */
+.debate-container {
+    margin-bottom: 20px;
+}
+
+.item1 {
+    margin-bottom: 50px;
+}
+
+.debate-item {
+    border-top: 4px solid #f92859;
+    padding-bottom: 20px;
+    border-bottom-style: double;
+    border-bottom-color: #ddd;
+}
+
+.debate-image img {
+    width: 100px;
+    height: 100px;
+}
+
+.debate-text a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+
+.author span {
+    color: #555;
+}
+
+.author a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+}
+
+.author a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+ .author-img img {
+    transform: translate(410%, -80%);
+    width: 60px;
+}
+
+.debate-logo {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: -30px auto;
+}
+
+.item2 .debate-item2 {
+    border-top: 4px solid #1c87fb;
+    border-bottom-style: double;
+    border-bottom-color: #ddd;
+    padding-bottom: 20px;
 }
