@@ -529,14 +529,14 @@ body {
 }
 
 .magazine-images img{
-    width: 250px;
-    height: 280px;
+    width: 290px;
+    height: 300px;
 }
 
-.magazine-type {
-    margin-bottom: 65px;
+ .magazine-type {
+    margin-bottom: 30px;
     margin-left: 15px;
-}
+} 
 
 .magazine-type a {
     font-size: 16px;
