@@ -505,10 +505,17 @@ body {
     font-weight: 700;
 }
 
-.magazine-logo {
+.magazine-logo, .featured-slideshows-logo > a {
     display: flex;
     justify-content: center;
     font-size: 19px;
+    color: rgb(51, 51, 51);
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+
+.featured-slideshows-logo a:hover {
+    text-decoration: none;
     color: rgb(51, 51, 51);
 }
 
@@ -595,3 +602,49 @@ body {
     width: 290px;
     height: 190px;
 }
+
+/*Styling featured stories */
+.featured-slideshows {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.featured-slideshows-logo img {
+    width: 30px;
+    height: 30px;
+    border-bottom:  3px solid red;
+    border-right: 3px solid red;
+}
+
+.featured-slideshows a img {
+    width: 400px;
+    height: 290px;
+} 
+
+.slideshow-count {
+    width: 60px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
+    margin-bottom: 63px;
+    margin-left: 16px;
+}
+
+.featured-slideshows a {
+    color: black;
+} 
+
+.featured-slideshows a:hover {
+    color: black;
+    text-decoration: red underline;
+} 
