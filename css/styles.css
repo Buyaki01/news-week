@@ -72,7 +72,7 @@ body {
     content: "|"
 }
 
-.stories {
+.stories, .magazine-items {
     position: relative;
     min-height: 35px;
     margin-bottom: 10px;
@@ -87,7 +87,7 @@ body {
     padding-bottom: 10px;
 }
 
-.stories .story-section {
+.story-section, .story-section-blue, .magazine-type {
     display: block;
     z-index: 1;
     bottom: 0;
@@ -150,7 +150,7 @@ body {
     text-decoration: none;
 }
 
-.stories .story-section-blue {
+/*.stories .story-section-blue {
     display: block;
     z-index: 1;
     bottom: 0;
@@ -159,7 +159,7 @@ body {
     position: absolute;
     background-color: rgba(255,255,255,.9);
     padding: 3px 10px 3px 10px;
-}
+} */
 
 .stories .story-section-blue a {
     color: rgb(53, 129, 244);
@@ -508,4 +508,95 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Styling magazine section */
+.magazine {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+
+.magazine-logo {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    color: rgb(51, 51, 51);
+}
+
+.magazine-logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.magazine-images img{
+    width: 250px;
+    height: 280px;
+}
+
+.magazine-type {
+    margin-bottom: 65px;
+    margin-left: 15px;
+}
+
+.magazine-type a {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(247, 34, 16);
+    text-transform: uppercase;
+}
+
+.magazine a:hover {
+    text-decoration: none;
+    color: rgb(247, 34, 16);
+}
+
+.magazine-features {
+    background-color: #f4f5f6;
+    width: 250px;
+}
+
+.magazine-features img {
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+}
+
+.magazine-features a {
+    color: black;
+    font-size: 18px;
+}
+
+.magazine-features a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: grey;
+    width: 100%;
+}
+
+.mag-img img {
+    width: 290px;
+    height: 200px;
+}
+
+.mag-category {
+    font-size: 16px;
+}
+
+.mag-category .mag-info {
+    color: white;
+    background-color: red;
+}
+
+.mag-category span a {
+    color: red;
+}
+
+.mag-text a {
+    color: black;
+    font-size: 20px;
+}
+
+.mag-text a:hover {
+    text-decoration: red underline;
+    color: black;
 }
