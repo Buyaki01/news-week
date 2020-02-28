@@ -150,17 +150,6 @@ body {
     text-decoration: none;
 }
 
-/*.stories .story-section-blue {
-    display: block;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    text-transform: uppercase;
-    position: absolute;
-    background-color: rgba(255,255,255,.9);
-    padding: 3px 10px 3px 10px;
-} */
-
 .stories .story-section-blue a {
     color: rgb(53, 129, 244);
     font-family: "Roboto Condensed", sans-serif;
@@ -184,15 +173,15 @@ body {
 
 /* Styling the second column, topstory1 */
 .topstory-section {
-    width: 530px;
+    width: 480px;
 }
 
 .stories .topstory-image img {
-    width: 530px;
+    width: 480px;
 }
 
 .topstory-headline {
-    width: 530px;
+    width: 480px;
 }
 
 .topstory-headline a{
@@ -209,7 +198,7 @@ body {
 }
 
 .topstory-caption {
-    width: 530px;
+    width: 480px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -221,7 +210,7 @@ body {
     padding-top: 14px;
     padding-bottom: 14px;
     border-top: 1px solid #ddd;
-    width: 530px;
+    width: 480px;
 }
 
 .related-news-image img {
@@ -261,7 +250,7 @@ body {
 
 /* Styling Culture Travel section */
 .cultureTravel {
-    width: 530px;
+    width: 480px;
     margin-bottom: 20px;
 }
 
@@ -321,19 +310,19 @@ body {
 
 /*Styling the more stories section */
 .more-stories {
-    width: 530px;
+    width: 480px;
 }
 
 .substories {
-    width: 530px;
-    height: 165px;
+    width: 480px;
+    height: 175px;
     border-top: 1px solid #ddd;
     padding-top: 10px;
 }
 
 .stories-image-title img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .more-details {
@@ -599,4 +588,10 @@ body {
 .mag-text a:hover {
     text-decoration: red underline;
     color: black;
+}
+
+/* Styling Editor's Pick */
+.story-image-pick img {
+    width: 290px;
+    height: 190px;
 }
