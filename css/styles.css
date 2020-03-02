@@ -72,6 +72,17 @@ body {
     content: "|"
 }
 
+.search-icon {
+    color: rgba(0,0,0,.55);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+} 
+
+.main-content {
+    padding-top: 180px;
+}
+
 .stories, .magazine-items {
     position: relative;
     min-height: 35px;
