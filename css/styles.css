@@ -710,5 +710,6 @@ body a:hover {
 }
 
 .story-sections-details a:hover {
-    text-decoration: red underline;
+    text-decoration: none;
+    color: red;
 }
