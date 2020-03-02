@@ -1,5 +1,16 @@
 body {
     border: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body a {
+    color: black;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .navbar1 {
@@ -664,3 +675,40 @@ body {
     color: black;
     text-decoration: red underline;
 } 
+
+/*Styling other-stories section */
+.other-stories-section {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.other-stories-heading a {
+    color: red;
+}
+
+.other-stories-heading a:hover {
+    color: red;
+}
+
+.other-stories-section h4 a:hover {
+    text-decoration: red underline;
+}
+
+.other-stories-image img {
+    width: 390px;
+    height: 290px;
+}
+
+.story-sections-img img {
+    width: 95px;
+    height: 95px;
+}
+
+.story-sections-details a {
+    font-size: 17px;
+}
+
+.story-sections-details a:hover {
+    text-decoration: red underline;
+}
