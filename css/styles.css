@@ -5,6 +5,7 @@ body {
 .navbar1 {
     height: 100px;
     background-color: red;
+    margin-top: -15px;
 }
 
 .weather {
@@ -183,6 +184,10 @@ body {
 }
 
 /* Styling the second column, topstory1 */
+.top-story {
+    padding-top: 180px;
+}
+
 .topstory-section {
     width: 480px;
 }
