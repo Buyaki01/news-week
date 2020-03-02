@@ -715,19 +715,31 @@ body a:hover {
 }
 
 /*Styling subscribe section */
-.subscribe-section h3, p {
+.subscribe-section {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
 }
 
-.subscribe-heading a {
+.subscribe-newsletter {
+    height: 350px;
+}
+
+.subscribe-heading1 > a, .subscribe-heading2 > a {
     color: red;
     font: 16px;
     font-weight: 700;
 }
 
-.subscribe-heading a:hover {
+.subscribe-heading1 > a:hover, .subscribe-heading2 > a:hover {
     color: red;
+}
+
+.subscribe-section .subscribe-heading1 {
+    padding-left: 28px;
+}
+
+.subscribe-section .subscribe-heading2 {
+    padding-left: 36px;
 }
 
 .part1{
@@ -750,17 +762,45 @@ body a:hover {
     margin-top: -235px;
 }
 
-.subscribe-text h3 {
+.subscribe-text > h3, .newsletter-text > h3 {
     font-size: 24px;
 }
 
-.subscribe-text p {
+.subscribe-text > p, .newsletter-text > p  {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 15px;
     color: rgb(51, 51, 51);
 }
 
-.subscribe-btn {
+.subscribe-newsletter .subscribe-btn {
+    width: 100px;
+}
+
+.subscribe-text > a, .newsletter-text > a {
     background-color: red;
+}
+
+.subscribe-text-img > img, .newsletter-text-img > img {
+    width: 8px;
+}
+
+.subscribe-text-img, .newsletter-text-img {
+    color: white;
+    font-size: 18px;
+}
+
+.subscribe-text-img:hover, .newsletter-text-img:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Styling the newsletter section */
+.newsletter-image img {
+    width: 180px;
+    height: 270px;
+}
+
+.newsletter-text h3 {
+    font-weight: 700;
 }
