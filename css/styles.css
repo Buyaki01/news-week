@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body a, h4 {
     border: none;
     font-family: "Roboto Condensed", sans-serif;
@@ -17,8 +21,8 @@ hr {
     background-color: #f4f5f6;
 }
 
-
 .navbar1 {
+    width: 1330px;
     height: 100px;
     background-color: red;
     margin-top: -15px;
@@ -27,6 +31,7 @@ hr {
 .weather {
     color: white;
 }
+
 .weather-country {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 15px;
@@ -70,6 +75,7 @@ hr {
 .navbar2 {
     background-color: rgb(255, 255, 255);
     padding-left: 0;
+    width: 1330px;
 }
 
 .navbar2 a {
@@ -723,10 +729,8 @@ hr {
 .subscribe-section {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
-}
-
-.subscribe-newsletter {
-    height: 350px;
+    width: 1320px;
+    padding-right: 20px;
 }
 
 .subscribe-heading1 > a, .subscribe-heading2 > a {
@@ -740,15 +744,17 @@ hr {
 }
 
 .subscribe-section .subscribe-heading1 {
-    padding-left: 28px;
+    padding-left: 15px;
 }
 
 .subscribe-section .subscribe-heading2 {
-    padding-left: 36px;
+    padding-left: 6px;
 }
 
 .part1{
-    background-color: #f4f5f6;
+   background-color: #f4f5f6;
+   height: 320px;
+   margin-left: -8px;
 }
 
 .subscribe-image1 > img, .subscribe-image2 > img {
@@ -801,9 +807,24 @@ hr {
 }
 
 /* Styling the newsletter section */
+.part2 .newsletter-text {
+    padding-left: 15px;
+    margin-left: -65px;
+    padding-top: 40px;
+}
+
+.part2 {
+    width: 265px;
+    height: 320px;
+}
+
+.newsletter-image {
+    margin-left: -18px;
+}
+
 .newsletter-image img {
     width: 180px;
-    height: 270px;
+    height: 320px;
 }
 
 .newsletter-text h3 {
@@ -811,17 +832,50 @@ hr {
 }
 
 /*Styling the footer */
-.footer-items .newsweek-logo {
+.footer-items {
     padding-left: 0;
+    padding-left: -25px;
+    margin-top: -15px;
+    margin-left: 0;
+    width: 1320px;
+}
+
+.footer-items .newsweek-logo img {
+    width: 200px;
+    height: 80px;
+}
+
+.footer-items .newsweek-logo {
+    height: 70px;
+    padding-left: 0;
+}
+
+.footer-items .fcopyright {
+    height: 70px;
+}
+
+.footer-items .logo-copyright {
+    height: 80px;
+    margin-bottom: 0;
+    margin-left: -25px;
 }
 
 .footer-contents .footer-contents1, .footer-list2 {
     padding-left: 15px;
 }
 
-.logo-icons {
-    margin-top: -15px;
+.footer-items .logo-icons {
+    height: 80px;
+    width: 1320px;
     margin-bottom: -15px;
+    padding-left: 25px;
+    margin-left: 0;
+}
+
+.footer-contents {
+    width: 1320px;
+    margin-left: 0;
+    margin-top: -13px;
 }
 
 .fcopyright {
@@ -837,6 +891,8 @@ hr {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    height: 70px;
+    width: 100px;
 }
 
 .icons-list li a {
@@ -845,10 +901,6 @@ hr {
 
 .footer-list {
     display: flex;
-}
-
-.footer-list li a {
-    padding-left: 5px;
 }
 
 .items-title strong {
@@ -865,6 +917,7 @@ hr {
     border-right: 1px solid #d9d9d9;
     padding-right: 10px;
     margin-right: 10px;
+    padding-left: 5px;
 }
 
 .footer-list2 .footer-list {
