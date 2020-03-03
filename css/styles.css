@@ -13,6 +13,11 @@ body a:hover {
     color: black;
 }
 
+hr {
+    background-color: #f4f5f6;
+}
+
+
 .navbar1 {
     height: 100px;
     background-color: red;
@@ -803,4 +808,24 @@ body a:hover {
 
 .newsletter-text h3 {
     font-weight: 700;
+}
+
+/*Styling the footer */
+.fcopyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    display: flex;
+    align-items: flex-end;
+}
+
+.icons-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.icons-list li a {
+    padding-left: 20px;
 }
