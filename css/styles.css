@@ -22,8 +22,7 @@ hr {
 }
 
 .navbar1 {
-    width: 1330px;
-    height: 100px;
+    height: 100px; 
     background-color: red;
     margin-top: -15px;
 }
@@ -75,7 +74,6 @@ hr {
 .navbar2 {
     background-color: rgb(255, 255, 255);
     padding-left: 0;
-    width: 1330px;
 }
 
 .navbar2 a {
