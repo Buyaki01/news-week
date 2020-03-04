@@ -2,6 +2,11 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    width: 95%;
+    margin: 0 auto;
+}
+
 body a, h4 {
     border: none;
     font-family: "Roboto Condensed", sans-serif;
@@ -771,7 +776,7 @@ hr {
 .footer-items .newsweek-logo img {
     width: 230px;
     height: 80px;
-}
+} 
 
 .footer-items .newsweek-logo {
     height: 70px;
@@ -780,7 +785,7 @@ hr {
 
 .footer-items .fcopyright {
     height: 70px;
-}
+} 
 
 .footer-items .logo-copyright {
     height: 80px;
