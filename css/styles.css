@@ -105,13 +105,8 @@ hr {
 }
 
 /* Styling the featured stories */
-.featured-stories {
-    border: 1px solid mediumslateblue;
-}
-
 .stories, .magazine-items {
     position: relative;
-    min-height: 35px;
     margin-bottom: 10px;
 }
 
@@ -171,11 +166,6 @@ hr {
     width: 350px;
 }
 
- .more-story {
-    padding-left: 0;
-    width: 350px;
- }
-
 .more-story li a{
     color: black;
     font-family: "Roboto Condensed", sans-serif;
@@ -208,10 +198,6 @@ hr {
 }
 
 /* Styling the second column, topstory1 */
-.top-story {
-    border: 1px solid purple;
-}
-
 .topstory-headline a{
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
@@ -358,10 +344,6 @@ hr {
 }
 
 /* styling col 3 */
-.opinion {
-    border: 1px solid red;
-}
-
 .opinion-container {
     margin-bottom: 10px;
 } 
@@ -436,13 +418,17 @@ hr {
     background-color: #000;
     color: #d6d6d6;
     border-radius: 50%;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -30px auto;
+}
+
+.debate-logo span {
     font-family: "Roboto Condensed",sans-serif;
     font-size: 14px;
     font-weight: bold;
-    text-align: center; 
-    display: flex;
-    justify-self: center;
-    margin: -30px auto;
 }
 
 .debate-item2 {
@@ -452,26 +438,10 @@ hr {
     padding-bottom: 20px;
 }
 
-/* Styling latest news */
-.latest-news-list {
-    margin-top: 10px;
-}
-
-.latest-news-image img {
-    width: 100px;
-    height: 100px;
-}
-
 /* last section of col 3 */
-.bottom-image img {
-    width: 270px;
-} 
-
 .bottom-details {
     margin-top: -10px;
     border: 1px solid #e6e6e6;
-    width: 270px;
-    height: 270px;
     padding: 10px;
 }
 
@@ -496,8 +466,6 @@ hr {
 }
 
 .advert {
-    width: 270px;
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -524,17 +492,12 @@ hr {
 }
 
 .magazine-logo img {
-    width: 30px;
-    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .magazine-images {
     margin-top: -10px;
-}
-
-.magazine-images img{
-    width: 280px;
-    height: 320px;
 }
 
  .magazine-type {
@@ -556,13 +519,13 @@ hr {
 
 .magazine-features {
     background-color: #f4f5f6;
-    width: 250px;
+    max-width: 250px;
 }
 
 .magazine-features img {
     display: inline-block;
-    width: 8px;
-    height: 10px;
+    max-width: 8px;
+    max-height: 10px;
 }
 
 .magazine-features a {
@@ -575,11 +538,6 @@ hr {
     text-decoration: none;
     background-color: grey;
     width: 100%;
-}
-
-.mag-img img {
-    width: 280px;
-    height: 200px;
 }
 
 .mag-category {
