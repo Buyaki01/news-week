@@ -44,9 +44,9 @@ hr {
     font-size: 16px;
 }
 
-.image-logo img {
+/*.image-logo img {
     height: 60px;
-}
+} */
 
 .sign-subscribe, span {
     font-family: "Roboto Condensed", sans-serif;
@@ -104,6 +104,11 @@ hr {
     padding-top: 180px;
 }
 
+/* Styling the featured stories */
+.featured-stories {
+    border: 1px solid mediumslateblue;
+}
+
 .stories, .magazine-items {
     position: relative;
     min-height: 35px;
@@ -141,8 +146,8 @@ hr {
     text-decoration: none;
 }
 
-.stories .story-image img {
-    width: 400px;
+.story-headline {
+    width: 350px;
 }
 
 .story-headline a {
@@ -163,11 +168,12 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
+    width: 350px;
 }
 
  .more-story {
     padding-left: 0;
-    width: 400px;
+    width: 350px;
  }
 
 .more-story li a{
@@ -198,22 +204,12 @@ hr {
 .story-details {
     margin-top: -10px;
     border: 1px solid #e6e6e6;
-    width: 400px;
-    height: 200px;
     padding: 10px;
 }
 
 /* Styling the second column, topstory1 */
-.topstory-section {
-    width: 480px;
-}
-
-.stories .topstory-image img {
-    width: 480px;
-}
-
-.topstory-headline {
-    width: 480px;
+.top-story {
+    border: 1px solid purple;
 }
 
 .topstory-headline a{
@@ -230,7 +226,7 @@ hr {
 }
 
 .topstory-caption {
-    width: 480px;
+    width: 460px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -242,7 +238,7 @@ hr {
     padding-top: 14px;
     padding-bottom: 14px;
     border-top: 1px solid #ddd;
-    width: 480px;
+    width: 460px;
 }
 
 .related-news-image img {
@@ -282,7 +278,6 @@ hr {
 
 /* Styling Culture Travel section */
 .cultureTravel {
-    width: 480px;
     margin-bottom: 20px;
 }
 
@@ -293,13 +288,7 @@ hr {
 
 .cultureTravel-image {
     position: relative;
-    min-height: 35px;
     margin-bottom: 10px;
-}
-
-.cultureTravel-image img {
-    width: 150px;
-    height: 150px;
 }
 
 .cultureTravel .image-category {
@@ -341,20 +330,9 @@ hr {
 }
 
 /*Styling the more stories section */
-.more-stories {
-    width: 480px;
-}
-
 .substories {
-    width: 480px;
-    height: 175px;
     border-top: 1px solid #ddd;
     padding-top: 10px;
-}
-
-.stories-image-title img {
-    width: 80px;
-    height: 80px;
 }
 
 .more-details {
@@ -380,6 +358,10 @@ hr {
 }
 
 /* styling col 3 */
+.opinion {
+    border: 1px solid red;
+}
+
 .opinion-container {
     margin-bottom: 10px;
 } 
@@ -410,10 +392,6 @@ hr {
 }
 
 /*debate section */
-.debate-container {
-    margin-bottom: 20px;
-}
-
 .item1 {
     margin-bottom: 50px;
 }
@@ -423,11 +401,6 @@ hr {
     padding-bottom: 20px;
     border-bottom-style: double;
     border-bottom-color: #ddd;
-}
-
-.debate-image img {
-    width: 100px;
-    height: 100px;
 }
 
 .debate-text a {
@@ -454,8 +427,7 @@ hr {
 }
 
  .author-img img {
-    transform: translate(410%, -80%);
-    width: 60px;
+    transform: translate(300%, -80%);
 }
 
 .debate-logo {
@@ -561,7 +533,7 @@ hr {
 }
 
 .magazine-images img{
-    width: 290px;
+    width: 280px;
     height: 320px;
 }
 
@@ -606,7 +578,7 @@ hr {
 }
 
 .mag-img img {
-    width: 290px;
+    width: 280px;
     height: 200px;
 }
 
@@ -635,7 +607,7 @@ hr {
 
 /* Styling Editor's Pick */
 .story-image-pick img {
-    width: 290px;
+    width: 270px;
     height: 190px;
 }
 
@@ -705,7 +677,7 @@ hr {
 }
 
 .other-stories-image img {
-    width: 390px;
+    width: 400px;
     height: 290px;
 }
 
@@ -839,7 +811,7 @@ hr {
 }
 
 .footer-items .newsweek-logo img {
-    width: 200px;
+    width: 230px;
     height: 80px;
 }
 
@@ -921,3 +893,13 @@ hr {
 .footer-list2 .footer-list {
     margin-top: -12px;
 }
+
+/*@media screen and (max-width: 992px) {
+    .featured-stories {
+        padding-right: 38px;
+    }
+    .top-story {
+        padding-right: 25px;
+        padding-left: 20px;
+    }
+} */
