@@ -327,7 +327,6 @@ hr {
     font-size: 15px;
 }
 
-/* styling col 3 */
 .opinion-container {
     margin-bottom: 10px;
 } 
@@ -663,6 +662,10 @@ hr {
     background-color: red;
 }
 
+.signup-btn {
+    margin-bottom: 215px;
+}
+
 .subscribe-text-img > img, .newsletter-text-img > img {
     max-width: 6px;
 }
@@ -699,7 +702,6 @@ hr {
     color: rgb(102, 102, 102);
     display: flex;
     align-items: center;
-    /*margin-left: -30px; */
     margin-bottom: 0;
     text-transform: uppercase;
 }
@@ -715,14 +717,18 @@ hr {
     padding-left: 20px;
 }
 
-.footer-list {
-    display: flex;
-}
-
 .items-title strong {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: rgb(102, 102, 102);
+}
+
+.footer-list > li, .items-title {
+    display: inline-block;
+}
+
+.footer-list li {
+    border-right: 1px solid #d9d9d9;
 }
 
 .footer-list li a {
@@ -730,23 +736,27 @@ hr {
     font-weight: 400;
     font-size: 12px;
     color: rgb(102, 102, 102);
-    border-right: 1px solid #d9d9d9;
-    padding-right: 10px;
-    margin-right: 10px;
-    padding-left: 5px;
 }
 
-.footer-list2 .footer-list {
-    margin-top: -12px;
+.footer-contents1 .footer-list1 a {
+    padding: 15px;
 }
 
-@media only screen and (max-width: 767px) {
+.footer-list2 li {
+    padding: 0 17px;
+}
+
+@media only screen and (max-width: 576px) {
+    .newsletter-image {
+        height: 550px;
+    }
     .fcopyright {
         display: flex;
         justify-content: flex-start;
         margin-left: 16px;
     }
     .icons-list {
+        margin-top: 10px;
         display: flex;
         justify-content: flex-start;
     }
