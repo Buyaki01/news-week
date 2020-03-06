@@ -14,33 +14,39 @@
 </head>
 
 <body class="container-fluid">
-    <div class="container-fluid navbar fixed-top ml-2 nav1-2">
-        <nav class="row navbar1 w-100">
-            <div class="col-lg-2 col-md-3">
+    <nav class="container-fluid navbar fixed-top ml-2 nav1-2">
+        <div class="row navbar1 w-100">
+            <div class="col-lg-2 col-md-3 col-2 order-lg-1 order-md-2 order-2">
                 <div class="weather pt-3">
-                    <i class="fas fa-cloud"></i>
-                    &nbsp;&nbsp;27°
-                    <span class="weather-country">
-                        Nairobi, KE&nbsp;&nbsp;
+                    <div class="cloud-icon"><i class="fas fa-cloud"></i> <span> 27° </span> </div>
+                    <div class="weather-country ml-2 pt-1">
+                        <span> Nairobi, KE </span>
                         <img src="https://g.newsweek.com/img/weather/ic-white-arrow.png"
                             class="weather-arrow img-responsive">
-                    </span>
+                    </div>
                 </div>
                 <div class="date py-3">
                     <date>Tue, Feb 25, 2020</date>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-6 image-logo d-flex justify-content-center py-3">
-                <img src="images\svgexport-1.png" class="img-responsive" alt="svgImage">
+            <div
+                class="col-lg-7 col-md-4 col-5 order-lg-2 order-md-1 order-1 image-logo d-flex justify-content-center py-3">
+                <a href="#" class="navbar-brand"> <img src="images\svgexport-1.png" class="img-responsive"
+                        alt="svgImage"> </a>
             </div>
-            <div class="col-lg-2 col-md-3 sign-subscribe d-flex align-items-end pb-3">
-                <a href="#" class="sign-in">SignIn</a>
-                <a href="#" class="btn btn-default btn-xs subscribe"> <span> Subscribe </span> <img
-                        class="img-responsive" src="images\svgexport-0.png" alt="arrow">
-                </a>
+            <div
+                class="col-lg-3 col-md-5 col-5 order-lg-3 order-md-3 order-3 sign-subscribe d-flex align-items-end justify-content-end">
+                <a href="#" class="sign-in text-uppercase">SignIn</a>
+                <button class="btn btn-default btn-xs sub-btn ml-2 mb-3"><a href="#" class="subscribe"> Subscribe <img
+                            class="img-responsive" src="images\svgexport-0.png" alt="arrow">
+                    </a> 
+                </button>
+                <button class="fas fa-bars collaps ml-2">
+
+                </button>
             </div>
-        </nav>
-        <nav class="row navbar2 w-100">
+        </div>
+        <div class="row navbar2 w-100">
             <div class="col-lg-12 px-0">
                 <ul class="breadcrumb nav nav-tabs list-unstyled px-0">
                     <li> <a href="#"> U.S </a></li>
@@ -58,11 +64,11 @@
                     </label>
                 </ul>
             </div>
-        </nav>
+        </div>
 
-    </div>
+    </nav>
 
-    <div class="main-content container-fluid">
+    <!--<div class="main-content container-fluid">
         <div class="row">
             <div class="col-lg-4 col-md-7 col-12 featured-stories">
                 <div class="stories-title">
@@ -1793,7 +1799,7 @@
             </div>
         </div>
 
-    </footer>
+    </footer> -->
 
 
 </body>

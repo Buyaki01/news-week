@@ -22,13 +22,13 @@ hr {
 }
 
 .navbar1 {
-    height: 100px; 
     background-color: red;
     margin-top: -15px;
 }
 
 .weather {
     color: white;
+    display: flex;
 }
 
 .weather-country {
@@ -44,18 +44,9 @@ hr {
     font-size: 16px;
 }
 
-/*.image-logo img {
-    height: 60px;
-} */
-
-.sign-subscribe, span {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-}
-
 .sign-in {
     color: white;
+    margin-bottom: 23px;
 }
 
 .sign-in:hover {
@@ -63,12 +54,15 @@ hr {
     color: white;
 }
 
-.subscribe {
+.sign-subscribe .sub-btn {
     background-color: white;
 }
 
-.subscribe span {
+.sign-subscribe .subscribe {
     color: red;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .navbar2 {
@@ -746,18 +740,95 @@ hr {
     padding: 0 17px;
 }
 
+.collaps {
+    display: none;
+}
+
 @media only screen and (max-width: 576px) {
+    .navbar2 {
+        display: none;
+    }
+
+    .collaps {
+        display: initial;
+        margin-bottom: 25px;
+        color: white;
+    }
+
+    .weather-country {
+        display: none;
+    }
+
+    .weather .cloud-icon {
+        padding-top: -15px;
+    }
+
+    .date {
+        display: none;
+    }
+
+    .image-logo img {
+        width: 100%;
+        padding-bottom: 7px;
+    }
+    
+    .navbar2 {
+        display: none!important;
+    }
+
     .newsletter-image {
         height: 550px;
     }
+
     .fcopyright {
         display: flex;
         justify-content: flex-start;
         margin-left: 16px;
     }
+
     .icons-list {
         margin-top: 10px;
         display: flex;
         justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .date {
+        display: none;
+    }
+
+    .navbar1 {
+        width: 100%;
+    }
+
+    .navbar2 {
+        display: none!important;
+    }
+
+    .collaps {
+        display: initial;
+        margin-bottom: 25px;
+        color: white;
+    }
+
+    .image-logo img {
+        width: 100%;
+    }
+
+    .navbar1 .weather {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .menuBar {
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .menuBar {
+        display: none!important;
     }
 }
