@@ -56,9 +56,11 @@ hr {
 
 .sign-subscribe .sub-btn {
     background-color: white;
+    color: red;
+    font-size: 18px;
 }
 
-.sign-subscribe .subscribe {
+.subscribe {
     color: red;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
@@ -85,6 +87,10 @@ hr {
 }
 .breadcrumb > li + li:before {
     content: "|"
+}
+
+.breadcrumb li:last-child {
+    content: none!important;
 }
 
 .search-icon {
@@ -776,6 +782,10 @@ hr {
         display: none!important;
     }
 
+    .main-content {
+        padding-top: 100px;
+    }
+
     .newsletter-image {
         height: 550px;
     }
@@ -824,6 +834,10 @@ hr {
     .navbar1 .weather {
         margin-top: 15px;
     }
+
+    .main-content {
+        padding-top: 100px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -837,6 +851,10 @@ hr {
 
     .navbar2 a {
         padding: 9px;
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .collaps {
+        display: none!important;
     }
 }
