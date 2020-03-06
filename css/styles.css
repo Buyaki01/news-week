@@ -744,10 +744,10 @@ hr {
     display: none;
 }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .navbar2 {
         display: none;
-    }
+    } 
 
     .collaps {
         display: initial;
@@ -760,7 +760,7 @@ hr {
     }
 
     .weather .cloud-icon {
-        padding-top: -15px;
+        margin-top: 12px;
     }
 
     .date {
@@ -793,7 +793,12 @@ hr {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (min-width: 768px)  {
+    .nav1-2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .date {
         display: none;
     }
@@ -821,14 +826,17 @@ hr {
     }
 }
 
-@media only screen and (max-width: 992px) {
-    .menuBar {
-        display: none!important;
+@media screen and (min-width: 992px) {
+    .date {
+        display: initial!important;
     }
-}
 
-@media only screen and (min-width: 1200px) {
-    .menuBar {
-        display: none!important;
+    .navbar2 {
+        display: initial!important;
+    }
+
+    .navbar2 a {
+        padding: 9px;
+        font-size: 14px;
     }
 }
