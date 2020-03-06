@@ -1,860 +1,875 @@
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-body a, h4 {
-    border: none;
-    font-family: "Roboto Condensed", sans-serif;
+body a,
+h4 {
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 body a:hover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 hr {
-    background-color: #f4f5f6;
+  background-color: #f4f5f6;
 }
 
 .navbar1 {
-    background-color: red;
-    margin-top: -15px;
+  background-color: red;
+  margin-top: -15px;
 }
 
 .weather {
-    color: white;
-    display: flex;
+  color: white;
+  display: flex;
 }
 
 .weather-country {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 15px;
-    font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .date {
-    color: white;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .sign-in {
-    color: white;
-    margin-bottom: 23px;
+  color: white;
+  margin-bottom: 23px;
 }
 
 .sign-in:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .sign-subscribe .sub-btn {
-    background-color: white;
-    color: red;
-    font-size: 18px;
+  background-color: white;
+  color: red;
+  font-size: 18px;
 }
 
 .subscribe {
-    color: red;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+  color: red;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .navbar2 {
-    background-color: rgb(255, 255, 255);
-    padding-left: 0;
+  background-color: rgb(255, 255, 255);
+  padding-left: 0;
 }
 
 .navbar2 a {
-    text-decoration: none;
-    color: black;
-    font-family:  "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 19px;
-    padding: 12px;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 12px;
 }
 
 .navbar2 a:hover {
-    text-decoration: none;
-    color: red;
+  text-decoration: none;
+  color: red;
 }
-.breadcrumb > li + li:before {
-    content: "|"
+
+.breadcrumb > li + li::before {
+  content: "|";
 }
 
 .breadcrumb li:last-child {
-    content: none!important;
+  content: none !important;
 }
 
 .search-icon {
-    color: rgba(0,0,0,.55);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-} 
+  color: rgba(0, 0, 0, 0.55);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
 
 .main-content {
-    padding-top: 180px;
+  padding-top: 180px;
 }
 
-.stories, .magazine-items {
-    position: relative;
-    margin-bottom: 10px;
+.stories,
+.magazine-items {
+  position: relative;
+  margin-bottom: 10px;
 }
 
-.stories-title, .stories-title > a {
-    font-family: "Roboto Condensed",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    color: rgba(3,3,3,.4);
-    text-transform: uppercase;
-    padding-bottom: 10px;
+.stories-title,
+.stories-title > a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
-.story-section, .story-section-blue, .magazine-type {
-    display: block;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    text-transform: uppercase;
-    position: absolute;
-    background-color: rgba(255,255,255,.9);
-    padding: 3px 10px 3px 10px;
+.story-section,
+.story-section-blue,
+.magazine-type {
+  display: block;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 3px 10px 3px 10px;
 }
 
 .stories .story-section a {
-    color: red;
-    font-size: 17px;
-    font-family: "Roboto Condensed",sans-serif;
+  color: red;
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .stories .story-section a:hover {
-    color: red;
-    text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
 
 .story-headline a {
-    color: black;
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: none;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .story-headline a:hover {
-    color: black;
-    text-decoration: red underline;
+  color: black;
+  text-decoration: red underline;
 }
 
 .story-caption {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 
-.more-story li a{
-    color: black;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
+.more-story li a {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
 }
 
-.more-story li a:hover{
-    color: red;
-    text-decoration: none;
+.more-story li a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .stories .story-section-blue a {
-    color: rgb(53, 129, 244);
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    text-decoration: none;
+  color: rgb(53, 129, 244);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
 }
 
 .stories .story-section-blue a:hover {
-    color: rgb(53, 129, 244);
-    text-decoration: none;
+  color: rgb(53, 129, 244);
+  text-decoration: none;
 }
 
 .story-details {
-    margin-top: -10px;
-    border: 1px solid #e6e6e6;
-    padding: 10px;
+  margin-top: -10px;
+  border: 1px solid #e6e6e6;
+  padding: 10px;
 }
 
-.topstory-headline a{
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    color: black;
-    text-decoration: none;
+.topstory-headline a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
 }
 
 .topstory-headline a:hover {
-    color: black;
-    text-decoration: red underline;
+  color: black;
+  text-decoration: red underline;
 }
 
 .topstory-caption {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: black;
-    margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  margin-bottom: 10px;
 }
 
 .related-news {
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-top: 1px solid #ddd;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-top: 1px solid #ddd;
 }
 
-.related-news .related-news-headline a{
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    color: black;
+.related-news .related-news-headline a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
 }
 
 .related-news .related-news-headline a:hover {
-    color: black;
-    text-decoration: red underline;
+  color: black;
+  text-decoration: red underline;
 }
 
 .more-related-news li {
-    border-top: 1px solid #d9d9d9;
-    padding: 10px 0;
-    border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  padding: 10px 0;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .more-related-news li a {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    color: black;
-    text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
 }
 
 .more-related-news li a:hover {
-    color: red;
+  color: red;
 }
 
 .cultureTravel {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .cultureTravel-title a:hover {
-    color: rgba(3, 3, 3, 0.5);
-    text-decoration: none;
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
 }
 
 .cultureTravel-image {
-    position: relative;
-    margin-bottom: 10px;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .cultureTravel .image-category {
-    display: block;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    position: absolute;
+  display: block;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
 
 .cultureTravel .image-category a {
-    color: rgb(39, 39, 39);
-    font-size: 13px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    background-color: #c2d4d7;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 2px;
+  color: rgb(39, 39, 39);
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 2px;
 }
 
 .image-title a {
-    font-family: Lora, serif;
-    font-weight: 400;
-    color: black;
-    font-size: 20px;
+  font-family: Lora, serif;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
 }
 
 .image-title a:hover {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .image-info {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: rgba(39, 39, 39, 0.5);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .substories {
-    border-top: 1px solid #ddd;
-    padding-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
 }
 
 .more-details {
-    margin-left: -20px;
+  margin-left: -20px;
 }
 
 .stories-image-heading a {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
 }
 
 .stories-image-heading a:hover {
-    color: black;
-    text-decoration: red underline;
-} 
+  color: black;
+  text-decoration: red underline;
+}
 
 .more-stories-info {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .opinion-container {
-    margin-bottom: 10px;
-} 
+  margin-bottom: 10px;
+}
 
 .opinion-list {
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
 .opinion-heading a {
-    font-family: "Roboto Condensed", sans-serif;
-    color: black;
-    font-size: 15px;
-    font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .opinion-heading a:hover {
-    text-decoration: none;
-    color: red;
+  text-decoration: none;
+  color: red;
 }
 
 .opinion-name {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: rgb(85, 85, 85);
-    text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(85, 85, 85);
+  text-transform: uppercase;
 }
 
 .item1 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .debate-item {
-    border-top: 4px solid #f92859;
-    padding-bottom: 20px;
-    border-bottom-style: double;
-    border-bottom-color: #ddd;
+  border-top: 4px solid #f92859;
+  padding-bottom: 20px;
+  border-bottom-style: double;
+  border-bottom-color: #ddd;
 }
 
 .debate-text a {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
 }
 
 .author span {
-    color: #555;
+  color: #555;
 }
 
 .author a {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
 }
 
 .author a:hover {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
- .author-img img {
-    transform: translate(300%, -80%);
+.author-img img {
+  transform: translate(300%, -80%);
 }
 
 .debate-logo {
-    width: 50px;
-    height: 50px;
-    background-color: #000;
-    color: #d6d6d6;
-    border-radius: 50%;
-    text-align: center; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: -30px auto;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -30px auto;
 }
 
 .debate-logo span {
-    font-family: "Roboto Condensed",sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .debate-item2 {
-    border-top: 4px solid #1c87fb;
-    border-bottom-style: double;
-    border-bottom-color: #ddd;
-    padding-bottom: 20px;
+  border-top: 4px solid #1c87fb;
+  border-bottom-style: double;
+  border-bottom-color: #ddd;
+  padding-bottom: 20px;
 }
 
 .bottom-details {
-    margin-top: -10px;
-    border: 1px solid #e6e6e6;
-    padding: 10px;
+  margin-top: -10px;
+  border: 1px solid #e6e6e6;
+  padding: 10px;
 }
 
 .bottom-headline a {
-    color: black;
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    text-decoration: none;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .bottom-headline a:hover {
-    color: black;
-    text-decoration: red underline;
+  color: black;
+  text-decoration: red underline;
 }
 
 .bottom-caption {
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 15px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .advert {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .magazine {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
 }
 
-.magazine-logo, .featured-slideshows-logo > a {
-    display: flex;
-    justify-content: center;
-    font-size: 19px;
-    color: rgb(51, 51, 51);
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
+.magazine-logo,
+.featured-slideshows-logo > a {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  color: rgb(51, 51, 51);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
 }
 
 .featured-slideshows-logo a:hover {
-    text-decoration: none;
-    color: rgb(51, 51, 51);
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
 
 .magazine-logo img {
-    max-width: 30px;
-    max-height: 30px;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .magazine-images {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
- .magazine-type {
-    margin-bottom: 30px;
-    margin-left: 15px;
-} 
+.magazine-type {
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
 
 .magazine-type a {
-    font-size: 16px;
-    font-weight: 700;
-    color: rgb(247, 34, 16);
-    text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(247, 34, 16);
+  text-transform: uppercase;
 }
 
 .magazine a:hover {
-    text-decoration: none;
-    color: rgb(247, 34, 16);
+  text-decoration: none;
+  color: rgb(247, 34, 16);
 }
 
 .magazine-features {
-    background-color: #f4f5f6;
-    max-width: 250px;
+  background-color: #f4f5f6;
+  max-width: 250px;
 }
 
 .magazine-features img {
-    display: inline-block;
-    max-width: 8px;
-    max-height: 10px;
+  display: inline-block;
+  max-width: 8px;
+  max-height: 10px;
 }
 
 .magazine-features a {
-    color: black;
-    font-size: 18px;
+  color: black;
+  font-size: 18px;
 }
 
 .magazine-features a:hover {
-    color: black;
-    text-decoration: none;
-    background-color: grey;
-    width: 100%;
+  color: black;
+  text-decoration: none;
+  background-color: grey;
+  width: 100%;
 }
 
 .mag-category {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .mag-category .mag-info {
-    color: white;
-    background-color: red;
+  color: white;
+  background-color: red;
 }
 
 .mag-category span a {
-    color: red;
+  color: red;
 }
 
 .mag-text a {
-    color: black;
-    font-size: 20px;
+  color: black;
+  font-size: 20px;
 }
 
 .mag-text a:hover {
-    text-decoration: red underline;
-    color: black;
+  text-decoration: red underline;
+  color: black;
 }
 
 .featured-slideshows {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .featured-slideshows-logo img {
-    max-width: 30px;
-    max-height: 30px;
-    border-bottom:  3px solid red;
-    border-right: 3px solid red;
+  max-width: 30px;
+  max-height: 30px;
+  border-bottom: 3px solid red;
+  border-right: 3px solid red;
 }
 
 .image-count {
-    position: relative;
+  position: relative;
 }
 
 .slideshow-count {
-    width: 60px;
-    height: 50px;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 58px;
-    text-indent: 5px;
-    text-align: center;
-    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-    color: #e9212e;
+  width: 60px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
 }
 
 .featured-slideshows a {
-    color: black;
-} 
+  color: black;
+}
 
 .featured-slideshows a:hover {
-    color: black;
-    text-decoration: red underline;
-} 
+  color: black;
+  text-decoration: red underline;
+}
 
 .other-stories-section {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
-    font-size: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
 }
 
 .other-stories-heading a {
-    color: red;
+  color: red;
 }
 
 .other-stories-heading a:hover {
-    color: red;
+  color: red;
 }
 
 .other-stories-section h4 a:hover {
-    text-decoration: red underline;
+  text-decoration: red underline;
 }
 
 .story-sections-details a {
-    font-size: 17px;
-    line-height: 19px;
+  font-size: 17px;
+  line-height: 19px;
 }
 
 .story-sections-details a:hover {
-    text-decoration: none;
-    color: red;
+  text-decoration: none;
+  color: red;
 }
 
 .subscribe-section {
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
 }
 
-.subscribe-heading1 > a, .subscribe-heading2 > a {
-    color: red;
-    font: 16px;
-    font-weight: 700;
-    font-family: "Roboto Condensed", sans-serif;
+.subscribe-heading1 > a,
+.subscribe-heading2 > a {
+  color: red;
+  font: 16px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.subscribe-heading1 > a:hover, .subscribe-heading2 > a:hover {
-    color: red;
+.subscribe-heading1 > a:hover,
+.subscribe-heading2 > a:hover {
+  color: red;
 }
 
-.part1{
-   background-color: #f4f5f6;
+.part1 {
+  background-color: #f4f5f6;
 }
 
 .subscribe-image2 {
-    transform: translate(30%, -94%);
+  transform: translate(30%, -94%);
 }
 
 .newsletter-image {
-   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
 }
 
 .newsletter-text {
-    border: 1px solid #ebebeb;
-    padding: 10px;
+  border: 1px solid #ebebeb;
+  padding: 10px;
 }
 
-.subscribe-text > h3, .newsletter-text > h3 {
-    font-size: 24px;
-    font-weight: 700;
+.subscribe-text > h3,
+.newsletter-text > h3 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.subscribe-text > p, .newsletter-text > p  {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    color: rgb(51, 51, 51);
+.subscribe-text > p,
+.newsletter-text > p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(51, 51, 51);
 }
 
 .btn {
-    background-color: red;
+  background-color: red;
 }
 
 .signup-btn {
-    margin-bottom: 215px;
+  margin-bottom: 215px;
 }
 
-.subscribe-text-img > img, .newsletter-text-img > img {
-    max-width: 6px;
+.subscribe-text-img > img,
+.newsletter-text-img > img {
+  max-width: 6px;
 }
 
-.subscribe-text-img, .newsletter-text-img {
-    color: white;
-    font-size: 18px;
+.subscribe-text-img,
+.newsletter-text-img {
+  color: white;
+  font-size: 18px;
 }
 
-.subscribe-text-img:hover, .newsletter-text-img:hover {
-    text-decoration: none;
-    color: white;
+.subscribe-text-img:hover,
+.newsletter-text-img:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .logo-icons {
-    margin-bottom: -15px;
-    margin-top: -10px;
+  margin-bottom: -15px;
+  margin-top: -10px;
 }
 
 .newsweek-logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .newsimg {
-    margin-left: -15px;
-    margin-bottom: 10px;
+  margin-left: -15px;
+  margin-bottom: 10px;
 }
 
 .logo-copyright .fcopyright {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    color: rgb(102, 102, 102);
-    display: flex;
-    align-items: center;
-    margin-bottom: 0;
-    text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .icons-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .icons-list li a {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .items-title strong {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: rgb(102, 102, 102);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
 }
 
-.footer-list > li, .items-title {
-    display: inline-block;
+.footer-list > li,
+.items-title {
+  display: inline-block;
 }
 
 .footer-list li {
-    border-right: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
 }
 
 .footer-list li a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    color: rgb(102, 102, 102);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
 }
 
 .footer-contents1 .footer-list1 a {
-    padding: 15px;
+  padding: 15px;
 }
 
 .footer-list2 li {
-    padding: 0 17px;
+  padding: 0 17px;
 }
 
 .collaps {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 576px) {
-    .navbar2 {
-        display: none;
-    } 
+  .navbar2 {
+    display: none;
+  }
 
-    .collaps {
-        display: initial;
-        margin-bottom: 25px;
-        color: white;
-    }
+  .collaps {
+    display: initial;
+    margin-bottom: 25px;
+    color: white;
+  }
 
-    .weather-country {
-        display: none;
-    }
+  .weather-country {
+    display: none;
+  }
 
-    .weather .cloud-icon {
-        margin-top: 12px;
-    }
+  .weather .cloud-icon {
+    margin-top: 12px;
+  }
 
-    .date {
-        display: none;
-    }
+  .date {
+    display: none;
+  }
 
-    .image-logo img {
-        width: 100%;
-        padding-bottom: 7px;
-    }
-    
-    .navbar2 {
-        display: none!important;
-    }
+  .image-logo img {
+    width: 100%;
+    padding-bottom: 7px;
+  }
 
-    .main-content {
-        padding-top: 100px;
-    }
+  .navbar2 {
+    display: none !important;
+  }
 
-    .newsletter-image {
-        height: 550px;
-    }
+  .main-content {
+    padding-top: 100px;
+  }
 
-    .fcopyright {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 16px;
-    }
+  .newsletter-image {
+    height: 550px;
+  }
 
-    .icons-list {
-        margin-top: 10px;
-        display: flex;
-        justify-content: flex-start;
-    }
+  .fcopyright {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16px;
+  }
+
+  .icons-list {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
-@media screen and (min-width: 768px)  {
-    .nav1-2 {
-        margin-left: 0;
-        margin-right: 0;
-    }
+@media screen and (min-width: 768px) {
+  .nav1-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .date {
-        display: none;
-    }
+  .date {
+    display: none;
+  }
 
-    .navbar1 {
-        width: 100%;
-    }
+  .navbar1 {
+    width: 100%;
+  }
 
-    .navbar2 {
-        display: none!important;
-    }
+  .navbar2 {
+    display: none !important;
+  }
 
-    .collaps {
-        display: initial;
-        margin-bottom: 25px;
-        color: white;
-    }
+  .collaps {
+    display: initial;
+    margin-bottom: 25px;
+    color: white;
+  }
 
-    .image-logo img {
-        width: 100%;
-    }
+  .image-logo img {
+    width: 100%;
+  }
 
-    .navbar1 .weather {
-        margin-top: 15px;
-    }
+  .navbar1 .weather {
+    margin-top: 15px;
+  }
 
-    .main-content {
-        padding-top: 100px;
-    }
+  .main-content {
+    padding-top: 100px;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .date {
-        display: initial!important;
-    }
+  .date {
+    display: initial !important;
+  }
 
-    .navbar2 {
-        display: initial!important;
-    }
+  .navbar2 {
+    display: initial !important;
+  }
 
-    .navbar2 a {
-        padding: 9px;
-        font-size: 16px;
-    }
+  .navbar2 a {
+    padding: 9px;
+    font-size: 16px;
+  }
 
-    .collaps {
-        display: none!important;
-    }
+  .collaps {
+    display: none !important;
+  }
 }
