@@ -13,9 +13,170 @@ body a {
   text-decoration: none;
 }
 
+.navbar2 a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 12px;
+}
+
+.stories-title,
+.stories-title > a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.story-headline a {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.topstory-headline a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+
+.image-title a {
+  font-family: Lora, serif;
+  font-weight: 400;
+  color: black;
+  font-size: 20px;
+}
+
+.stories-image-heading a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+}
+
+.opinion-heading a {
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.debate-text a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+}
+
+.author a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+}
+
+.bottom-headline a {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.magazine-logo,
+.featured-slideshows-logo > a {
+  display: flex;
+  justify-content: center;
+  font-size: 19px;
+  color: rgb(51, 51, 51);
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.magazine-type a {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(247, 34, 16);
+  text-transform: uppercase;
+}
+
+.magazine-features a {
+  color: black;
+  font-size: 18px;
+}
+
+.mag-text a {
+  color: black;
+  font-size: 20px;
+}
+
+.featured-slideshows a {
+  color: black;
+}
+
+.other-stories-heading a {
+  color: red;
+}
+
+.story-sections-details a {
+  font-size: 17px;
+  line-height: 19px;
+}
+
+.subscribe-heading1 > a,
+.subscribe-heading2 > a {
+  color: red;
+  font: 16px;
+  font-weight: 700;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 body a:hover {
   text-decoration: none;
   color: black;
+}
+
+.more-story li a {
+  color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.more-related-news li a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+}
+
+.mag-category span a {
+  color: red;
+}
+
+.icons-list li a {
+  padding-left: 20px;
+}
+
+.footer-list li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+}
+
+.story-sections-details a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 hr {
@@ -73,15 +234,6 @@ hr {
   padding-left: 0;
 }
 
-.navbar2 a {
-  text-decoration: none;
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 19px;
-  padding: 12px;
-}
-
 .navbar2 a:hover {
   text-decoration: none;
   color: red;
@@ -89,10 +241,6 @@ hr {
 
 .breadcrumb > li + li::before {
   content: "|";
-}
-
-.breadcrumb li:last-child {
-  content: none !important;
 }
 
 .search-icon {
@@ -110,16 +258,6 @@ hr {
 .magazine-items {
   position: relative;
   margin-bottom: 10px;
-}
-
-.stories-title,
-.stories-title > a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  color: rgba(3, 3, 3, 0.4);
-  text-transform: uppercase;
-  padding-bottom: 10px;
 }
 
 .story-section,
@@ -141,41 +279,9 @@ hr {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.stories .story-section a:hover {
-  color: red;
-  text-decoration: none;
-}
-
-.story-headline a {
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 .story-headline a:hover {
   color: black;
   text-decoration: red underline;
-}
-
-.story-caption {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.more-story li a {
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-}
-
-.more-story li a:hover {
-  color: red;
-  text-decoration: none;
 }
 
 .stories .story-section-blue a {
@@ -184,6 +290,124 @@ hr {
   font-weight: 700;
   font-size: 17px;
   text-decoration: none;
+}
+
+.topstory-headline a:hover {
+  color: black;
+  text-decoration: red underline;
+}
+
+.related-news .related-news-headline a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+}
+
+.cultureTravel-title a:hover {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+.cultureTravel .image-category a {
+  color: rgb(39, 39, 39);
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+}
+
+.image-title a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.stories-image-heading a:hover {
+  color: black;
+  text-decoration: red underline;
+}
+
+.opinion-heading a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.author a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-headline a:hover {
+  color: black;
+  text-decoration: red underline;
+}
+
+.featured-slideshows-logo a:hover {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
+.magazine a:hover {
+  text-decoration: none;
+  color: rgb(247, 34, 16);
+}
+
+.magazine-features a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: grey;
+  width: 100%;
+}
+
+.mag-text a:hover {
+  text-decoration: red underline;
+  color: black;
+}
+
+.featured-slideshows a:hover {
+  color: black;
+  text-decoration: red underline;
+}
+
+.other-stories-heading a:hover {
+  color: red;
+}
+
+.subscribe-heading1 > a:hover,
+.subscribe-heading2 > a:hover {
+  color: red;
+}
+
+.footer-contents1 .footer-list1 a {
+  padding: 15px;
+}
+
+.more-story li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.more-related-news li a:hover {
+  color: red;
+}
+
+.other-stories-section h4 a:hover {
+  text-decoration: red underline;
+}
+
+.stories .story-section a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.story-caption {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .stories .story-section-blue a:hover {
@@ -195,19 +419,6 @@ hr {
   margin-top: -10px;
   border: 1px solid #e6e6e6;
   padding: 10px;
-}
-
-.topstory-headline a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-  color: black;
-  text-decoration: none;
-}
-
-.topstory-headline a:hover {
-  color: black;
-  text-decoration: red underline;
 }
 
 .topstory-caption {
@@ -224,13 +435,6 @@ hr {
   border-top: 1px solid #ddd;
 }
 
-.related-news .related-news-headline a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  color: black;
-}
-
 .related-news .related-news-headline a:hover {
   color: black;
   text-decoration: red underline;
@@ -242,25 +446,8 @@ hr {
   border-bottom: 1px solid #d9d9d9;
 }
 
-.more-related-news li a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  color: black;
-  text-decoration: none;
-}
-
-.more-related-news li a:hover {
-  color: red;
-}
-
 .cultureTravel {
   margin-bottom: 20px;
-}
-
-.cultureTravel-title a:hover {
-  color: rgba(3, 3, 3, 0.5);
-  text-decoration: none;
 }
 
 .cultureTravel-image {
@@ -274,29 +461,6 @@ hr {
   bottom: 0;
   left: 0;
   position: absolute;
-}
-
-.cultureTravel .image-category a {
-  color: rgb(39, 39, 39);
-  font-size: 13px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  background-color: #c2d4d7;
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-bottom: 2px;
-}
-
-.image-title a {
-  font-family: Lora, serif;
-  font-weight: 400;
-  color: black;
-  font-size: 20px;
-}
-
-.image-title a:hover {
-  color: black;
-  text-decoration: none;
 }
 
 .image-info {
@@ -315,18 +479,6 @@ hr {
   margin-left: -20px;
 }
 
-.stories-image-heading a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  color: black;
-}
-
-.stories-image-heading a:hover {
-  color: black;
-  text-decoration: red underline;
-}
-
 .more-stories-info {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -340,18 +492,6 @@ hr {
 .opinion-list {
   margin-bottom: 10px;
   border-bottom: 1px solid #ddd;
-}
-
-.opinion-heading a {
-  font-family: "Roboto Condensed", sans-serif;
-  color: black;
-  font-size: 15px;
-  font-weight: 700;
-}
-
-.opinion-heading a:hover {
-  text-decoration: none;
-  color: red;
 }
 
 .opinion-name {
@@ -373,27 +513,8 @@ hr {
   border-bottom-color: #ddd;
 }
 
-.debate-text a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 17px;
-  color: black;
-}
-
 .author span {
   color: #555;
-}
-
-.author a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  color: black;
-}
-
-.author a:hover {
-  text-decoration: none;
-  color: black;
 }
 
 .author-img img {
@@ -432,19 +553,6 @@ hr {
   padding: 10px;
 }
 
-.bottom-headline a {
-  color: black;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.bottom-headline a:hover {
-  color: black;
-  text-decoration: red underline;
-}
-
 .bottom-caption {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -463,21 +571,6 @@ hr {
   font-weight: 700;
 }
 
-.magazine-logo,
-.featured-slideshows-logo > a {
-  display: flex;
-  justify-content: center;
-  font-size: 19px;
-  color: rgb(51, 51, 51);
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-}
-
-.featured-slideshows-logo a:hover {
-  text-decoration: none;
-  color: rgb(51, 51, 51);
-}
-
 .magazine-logo img {
   max-width: 30px;
   max-height: 30px;
@@ -492,18 +585,6 @@ hr {
   margin-left: 15px;
 }
 
-.magazine-type a {
-  font-size: 16px;
-  font-weight: 700;
-  color: rgb(247, 34, 16);
-  text-transform: uppercase;
-}
-
-.magazine a:hover {
-  text-decoration: none;
-  color: rgb(247, 34, 16);
-}
-
 .magazine-features {
   background-color: #f4f5f6;
   max-width: 250px;
@@ -515,18 +596,6 @@ hr {
   max-height: 10px;
 }
 
-.magazine-features a {
-  color: black;
-  font-size: 18px;
-}
-
-.magazine-features a:hover {
-  color: black;
-  text-decoration: none;
-  background-color: grey;
-  width: 100%;
-}
-
 .mag-category {
   font-size: 16px;
 }
@@ -534,20 +603,6 @@ hr {
 .mag-category .mag-info {
   color: white;
   background-color: red;
-}
-
-.mag-category span a {
-  color: red;
-}
-
-.mag-text a {
-  color: black;
-  font-size: 20px;
-}
-
-.mag-text a:hover {
-  text-decoration: red underline;
-  color: black;
 }
 
 .featured-slideshows {
@@ -583,59 +638,15 @@ hr {
   color: #e9212e;
 }
 
-.featured-slideshows a {
-  color: black;
-}
-
-.featured-slideshows a:hover {
-  color: black;
-  text-decoration: red underline;
-}
-
 .other-stories-section {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
   font-size: 22px;
 }
 
-.other-stories-heading a {
-  color: red;
-}
-
-.other-stories-heading a:hover {
-  color: red;
-}
-
-.other-stories-section h4 a:hover {
-  text-decoration: red underline;
-}
-
-.story-sections-details a {
-  font-size: 17px;
-  line-height: 19px;
-}
-
-.story-sections-details a:hover {
-  text-decoration: none;
-  color: red;
-}
-
 .subscribe-section {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-}
-
-.subscribe-heading1 > a,
-.subscribe-heading2 > a {
-  color: red;
-  font: 16px;
-  font-weight: 700;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.subscribe-heading1 > a:hover,
-.subscribe-heading2 > a:hover {
-  color: red;
 }
 
 .part1 {
@@ -727,10 +738,6 @@ hr {
   margin-bottom: 0;
 }
 
-.icons-list li a {
-  padding-left: 20px;
-}
-
 .items-title strong {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -746,17 +753,6 @@ hr {
   border-right: 1px solid #d9d9d9;
 }
 
-.footer-list li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  color: rgb(102, 102, 102);
-}
-
-.footer-contents1 .footer-list1 a {
-  padding: 15px;
-}
-
 .footer-list2 li {
   padding: 0 17px;
 }
@@ -766,14 +762,8 @@ hr {
 }
 
 @media screen and (max-width: 576px) {
-  .navbar2 {
-    display: none;
-  }
-
-  .collaps {
-    display: initial;
-    margin-bottom: 25px;
-    color: white;
+  html {
+    overflow-x: hidden;
   }
 
   .weather-country {
@@ -816,9 +806,19 @@ hr {
     display: flex;
     justify-content: flex-start;
   }
+
+  .collaps {
+    display: initial;
+    margin-bottom: 25px;
+    color: white;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+
   .nav1-2 {
     margin-left: 0;
     margin-right: 0;
