@@ -251,7 +251,7 @@ hr {
 }
 
 .main-content {
-  padding-top: 180px;
+  padding-top: 180px !important;
 }
 
 .stories,
@@ -359,7 +359,6 @@ hr {
   color: black;
   text-decoration: none;
   background-color: grey;
-  width: 100%;
 }
 
 .mag-text a:hover {
@@ -685,18 +684,18 @@ hr {
 }
 
 .signup-btn {
-  margin-bottom: 215px;
+  margin-bottom: 127px;
 }
 
 .subscribe-text-img > img,
 .newsletter-text-img > img {
-  max-width: 6px;
+  max-width: 5px;
 }
 
-.subscribe-text-img,
-.newsletter-text-img {
+.subscribe-section button {
   color: white;
   font-size: 18px;
+  font-weight: 700;
 }
 
 .subscribe-text-img:hover,
@@ -763,7 +762,7 @@ hr {
 
 @media screen and (max-width: 576px) {
   html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .weather-country {
@@ -812,11 +811,31 @@ hr {
     margin-bottom: 25px;
     color: white;
   }
+
+  .subscribe-image {
+    border: 1px solid indigo;
+  }
+
+  .subscribe-image1 {
+    width: 75%;
+  }
+
+  .subscribe-image2 {
+    width: 75%;
+  } 
+
+  .subscribe-text {
+    border: 1px solid green;
+  }
+
+  .subscribe-section .part2-container {
+    margin-left: 0 !important;
+  }
 }
 
 @media screen and (min-width: 768px) {
   html {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .nav1-2 {
