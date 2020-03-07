@@ -1,5 +1,5 @@
 html {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body a,
@@ -652,7 +652,7 @@ hr {
   background-color: #f4f5f6;
 }
 
-.subscribe-image1 , .subscribe-image2 {
+.subscribe-image1, .subscribe-image2 {
   margin-bottom: -10px;
 }
 
@@ -865,7 +865,7 @@ hr {
     margin-bottom: -80px;
   }
 
-  .subscribe-image2  {
+  .subscribe-image2 {
     transform: translate(29%, -63%);
   }
 }
@@ -880,15 +880,24 @@ hr {
   }
 
   .navbar2 a {
-    padding: 9px;
-    font-size: 16px;
+    padding: 9px !important;
+    font-size: 14px !important;
   }
 
   .collaps {
     display: none !important;
   }
 
-  .newsletter-text {
-    padding: 0;
+  .subscribe-image1, .subscribe-image2 {
+    height: 750%;
+    width: 100%;
+  }
+
+  .subscribe-image1, .subscribe-image2{
+    margin-bottom: 5px;
+  }
+  
+  .subscribe-image2 {
+    transform: translate(30%, -100%);
   }
 }
