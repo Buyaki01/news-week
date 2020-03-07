@@ -18,8 +18,8 @@ body a {
   color: black;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
-  font-size: 19px;
-  padding: 12px;
+  font-size: 14px;
+  padding: 8px;
 }
 
 .stories-title,
@@ -251,7 +251,7 @@ hr {
 }
 
 .main-content {
-  padding-top: 180px !important;
+  padding-top: 190px !important;
 }
 
 .stories,
@@ -652,6 +652,10 @@ hr {
   background-color: #f4f5f6;
 }
 
+.subscribe-image1 , .subscribe-image2 {
+  margin-bottom: -10px;
+}
+
 .subscribe-image2 {
   transform: translate(30%, -94%);
 }
@@ -662,7 +666,7 @@ hr {
 
 .newsletter-text {
   border: 1px solid #ebebeb;
-  padding: 10px;
+  padding: 10px !important;
 }
 
 .subscribe-text > h3,
@@ -681,10 +685,6 @@ hr {
 
 .btn {
   background-color: red;
-}
-
-.signup-btn {
-  margin-bottom: 127px;
 }
 
 .subscribe-text-img > img,
@@ -786,13 +786,9 @@ hr {
     display: none !important;
   }
 
-  .main-content {
-    padding-top: 100px;
-  }
-
   .newsletter-image {
     height: 550px;
-  }
+  } 
 
   .fcopyright {
     display: flex;
@@ -812,20 +808,16 @@ hr {
     color: white;
   }
 
-  .subscribe-image {
-    border: 1px solid indigo;
-  }
-
   .subscribe-image1 {
-    width: 75%;
+    width: 75% !important;
   }
 
   .subscribe-image2 {
-    width: 75%;
+    width: 75% !important;
   } 
 
   .subscribe-text {
-    border: 1px solid green;
+    margin-top: -320px;
   }
 
   .subscribe-section .part2-container {
@@ -862,15 +854,19 @@ hr {
   }
 
   .image-logo img {
-    width: 100%;
+    width: 250%;
   }
 
   .navbar1 .weather {
     margin-top: 15px;
   }
 
-  .main-content {
-    padding-top: 100px;
+  .subscribe-image1, .subscribe-image2 {
+    margin-bottom: -80px;
+  }
+
+  .subscribe-image2  {
+    transform: translate(29%, -63%);
   }
 }
 
@@ -890,5 +886,9 @@ hr {
 
   .collaps {
     display: none !important;
+  }
+
+  .newsletter-text {
+    padding: 0;
   }
 }
