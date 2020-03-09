@@ -652,21 +652,18 @@ hr {
   background-color: #f4f5f6;
 }
 
-.subscribe-image1, .subscribe-image2 {
-  margin-bottom: -10px;
+.sub-img1,
+.sub-img2 {
+  margin-bottom: -130px;
 }
 
-.subscribe-image2 {
-  transform: translate(30%, -94%);
+.subscribe-image .sub-img2 {
+  transform: translate(35%, -55%);
 }
 
 .newsletter-image {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
-}
-
-.newsletter-text {
-  border: 1px solid #ebebeb;
-  padding: 10px !important;
+  height: 396px;
 }
 
 .subscribe-text > h3,
@@ -786,14 +783,13 @@ hr {
     display: none !important;
   }
 
-  .newsletter-image {
+  /* .newsletter-image {
     height: 550px;
-  } 
+  } */
 
   .fcopyright {
     display: flex;
     justify-content: flex-start;
-    margin-left: 16px;
   }
 
   .icons-list {
@@ -808,20 +804,24 @@ hr {
     color: white;
   }
 
-  .subscribe-image1 {
+  /* .subscribe-image1 {
     width: 75% !important;
   }
 
   .subscribe-image2 {
     width: 75% !important;
-  } 
+  } */
 
-  .subscribe-text {
+  /* .subscribe-text {
     margin-top: -320px;
-  }
+  } */
 
   .subscribe-section .part2-container {
     margin-left: 0 !important;
+  }
+
+  .newsimg {
+    width: 100%;
   }
 }
 
@@ -853,21 +853,18 @@ hr {
     color: white;
   }
 
-  .image-logo img {
-    width: 250%;
-  }
-
   .navbar1 .weather {
     margin-top: 15px;
   }
 
-  .subscribe-image1, .subscribe-image2 {
-    margin-bottom: -80px;
-  }
-
+  /* .subscribe-image1,
   .subscribe-image2 {
+    margin-bottom: -80px;
+  } */
+
+  /* .subscribe-image2 {
     transform: translate(29%, -63%);
-  }
+  } */
 }
 
 @media screen and (min-width: 992px) {
@@ -888,16 +885,19 @@ hr {
     display: none !important;
   }
 
-  .subscribe-image1, .subscribe-image2 {
-    height: 750%;
-    width: 100%;
+  /* .subscribe-image1 img, .subscribe-image2 img {
+    height: inherit;
   }
 
-  .subscribe-image1, .subscribe-image2{
-    margin-bottom: 5px;
-  }
-  
   .subscribe-image2 {
-    transform: translate(30%, -100%);
+    transform: inherit;
+  } */
+
+  .newsletter-image {
+    height: 396px;
+  }
+
+  .newsletter-text {
+    font-size: 1.22rem;
   }
 }
