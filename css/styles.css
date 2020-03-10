@@ -648,7 +648,8 @@ hr {
   font-weight: 700;
 }
 
-.part1-container, .part2-container {
+.part1-container,
+.part2-container {
   padding: 40px;
 }
 
@@ -821,12 +822,13 @@ hr {
     width: 100%;
   }
 
-  .subscribe-image .sub-img2 {
-    transform: translate(35%, -65%);
+  .sub-img1,
+  .sub-img2 {
+    margin-bottom: -100px;
   }
 
-  .sub-img1, .sub-img2 {
-    margin-bottom: -100px;
+  .subscribe-image .sub-img2 {
+    transform: translate(35%, -65%);
   }
 }
 
