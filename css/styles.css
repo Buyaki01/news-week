@@ -681,6 +681,7 @@ hr {
 .newsletter-text > h3 {
   font-size: 24px;
   font-weight: 700;
+  line-height: 28px;
 }
 
 .subscribe-text > p,
@@ -878,9 +879,5 @@ hr {
 
   .collaps {
     display: none !important;
-  }
-
-  .sub-img1, .sub-img2 {
-    margin-bottom: -130px !important;
   }
 }
