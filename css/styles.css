@@ -648,6 +648,10 @@ hr {
   font-weight: 700;
 }
 
+.part1-container, .part2-container {
+  padding: 40px;
+}
+
 .part1 {
   background-color: #f4f5f6;
 }
@@ -658,12 +662,19 @@ hr {
 }
 
 .subscribe-image .sub-img2 {
-  transform: translate(35%, -55%);
+  transform: translate(35%, -35%);
+}
+
+.news-image-text {
+  border: 1px solid red;
 }
 
 .newsletter-image {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
-  height: 396px;
+}
+
+.newsletter-text {
+  background-color: lawngreen;
 }
 
 .subscribe-text > h3,
@@ -678,6 +689,7 @@ hr {
   font-weight: 300;
   font-size: 15px;
   color: rgb(51, 51, 51);
+  line-height: 21px;
 }
 
 .btn {
@@ -770,6 +782,10 @@ hr {
     margin-top: 12px;
   }
 
+  .sign-subscribe {
+    margin-top: 15px;
+  }
+
   .date {
     display: none;
   }
@@ -783,9 +799,9 @@ hr {
     display: none !important;
   }
 
-  /* .newsletter-image {
-    height: 550px;
-  } */
+  .newsletter-image {
+    height: 150px;
+  }
 
   .fcopyright {
     display: flex;
@@ -803,18 +819,6 @@ hr {
     margin-bottom: 25px;
     color: white;
   }
-
-  /* .subscribe-image1 {
-    width: 75% !important;
-  }
-
-  .subscribe-image2 {
-    width: 75% !important;
-  } */
-
-  /* .subscribe-text {
-    margin-top: -320px;
-  } */
 
   .subscribe-section .part2-container {
     margin-left: 0 !important;
@@ -856,15 +860,6 @@ hr {
   .navbar1 .weather {
     margin-top: 15px;
   }
-
-  /* .subscribe-image1,
-  .subscribe-image2 {
-    margin-bottom: -80px;
-  } */
-
-  /* .subscribe-image2 {
-    transform: translate(29%, -63%);
-  } */
 }
 
 @media screen and (min-width: 992px) {
@@ -885,19 +880,11 @@ hr {
     display: none !important;
   }
 
-  /* .subscribe-image1 img, .subscribe-image2 img {
-    height: inherit;
-  }
-
-  .subscribe-image2 {
-    transform: inherit;
-  } */
-
-  .newsletter-image {
-    height: 396px;
+  /*.newsletter-image {
+   height: 263px;
   }
 
   .newsletter-text {
-    font-size: 1.22rem;
-  }
+    height: 263px;
+  } */
 }
