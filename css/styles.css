@@ -880,11 +880,7 @@ hr {
     display: none !important;
   }
 
-  /*.newsletter-image {
-   height: 263px;
+  .sub-img1, .sub-img2 {
+    margin-bottom: -130px !important;
   }
-
-  .newsletter-text {
-    height: 263px;
-  } */
 }
