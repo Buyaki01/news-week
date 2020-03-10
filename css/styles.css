@@ -665,16 +665,8 @@ hr {
   transform: translate(35%, -35%);
 }
 
-.news-image-text {
-  border: 1px solid red;
-}
-
 .newsletter-image {
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
-}
-
-.newsletter-text {
-  background-color: lawngreen;
 }
 
 .subscribe-text > h3,
@@ -827,6 +819,14 @@ hr {
 
   .newsimg {
     width: 100%;
+  }
+
+  .subscribe-image .sub-img2 {
+    transform: translate(35%, -65%);
+  }
+
+  .sub-img1, .sub-img2 {
+    margin-bottom: -100px;
   }
 }
 
